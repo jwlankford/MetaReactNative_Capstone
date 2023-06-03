@@ -9,7 +9,7 @@ const App = () =>{
   return (
     <>
       <View
-        style={ styles }>
+        style={ mainStyles }>
         <LittleLemonHeader />
         <WelcomeScreen />
         <LittleLemonFooter />
@@ -18,7 +18,7 @@ const App = () =>{
   );
 }
 
-const styles = StyleSheet.create({
+const mainStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#495E57',
