@@ -9,7 +9,7 @@ const App = () =>{
   return (
     <>
       <View
-        style={ mainStyles }>
+        style={{ flex: 1 }}>
         <LittleLemonHeader />
         <WelcomeScreen />
         <LittleLemonFooter />
@@ -17,14 +17,5 @@ const App = () =>{
     </>
   );
 }
-
-const mainStyles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#495E57',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
 
 export default App;
