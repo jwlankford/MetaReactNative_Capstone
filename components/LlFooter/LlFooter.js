@@ -1,10 +1,12 @@
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function LittleLemonHeader() {
+export default function LlFooter() {
   return (
     <View style={styles.container}>
-      <Text style={styles.headerText}>Little Lemon</Text>
+      <Text style={styles.footerText}>
+        All rights reserved by Little Lemon, 2023{' '}
+      </Text>
     </View>
   );
 }
@@ -12,11 +14,12 @@ export default function LittleLemonHeader() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#EE9972',
+    marginBottom: 20,
   },
-  headerText: {
-    padding: 40,
-    fontSize: 30,
+  footerText: {
+    fontSize: 18,
     color: 'black',
     textAlign: 'center',
+    fontStyle: 'italic',
   },
 });
